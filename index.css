@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+.container{
+    /*Tela total do site*/
+    width: 100vw;
+    height: 100vh;
+    background: #1c0b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1{
+    color: #6f95ff;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-login{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #301c41;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px;
+}
+
+.card-login h1{
+    color: #6f95ff;
+    font-weight: 800;
+    margin: 0;
+}
+
+.text-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.text-field > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #315c69b0;
+    color: whitesmoke;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #000000bb;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.text-field > label{
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+.text-field > input::placeholder{
+    color: #5c65c0;
+}
+
+.button-login{
+    width: 35%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #1f122b;
+    background-color: #157a8c;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px #000000;
+}
